@@ -41,11 +41,7 @@ export class AddressBuilder{
   }
 
   phoneNumber(phoneNumber: string): AddressBuilder{
-    if(phoneNumber.length==10){
-      this._phoneNumber=phoneNumber;
-    }else{
-      console.log("numéro pas au bon format")
-    }
+    this._phoneNumber=phoneNumber;
     return this;
   }
 
