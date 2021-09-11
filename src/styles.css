@@ -1,5 +1,5 @@
 body{
-  background-color: floralwhite;
+  background-color: #434643;
 }
 h1{
   color: black;
@@ -9,13 +9,12 @@ h1{
 }
 #carnets{
   text-align: center;
-  background-color: floralwhite;
+  background-color: #434643;
 }
 #contact{
-
+  background-color: #434643;
   color: rgb(0, 0, 0);
   text-align: center;
-  border: solid 1px rgb(0, 0, 0);
   padding: 3px;
   font-family:Arial, Helvetica, sans-serif;
   font-weight: bolder;
@@ -26,6 +25,7 @@ h1{
 }
 #form_add_contact{
   font-size: 20px;
+  color:black;
 }
 #form_update_contact{
   font-size: 20px;
@@ -33,4 +33,13 @@ h1{
 
 ul {
   list-style-type : none;
+}
+.card{
+  margin: 0 auto;
+  float: none;
+  margin-bottom: 10px;
+}
+.card-body{
+  background-color: #c4c3b9;
+  color:black;
 }
